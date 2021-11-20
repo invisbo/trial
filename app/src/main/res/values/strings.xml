@@ -1,0 +1,16 @@
+<resources>
+    <!--SOURCES-->
+    <string name="source_title">Kaynaklar</string>
+    <string-array name="source_categories">
+        <item>General</item>
+        <item>Business</item>
+        <item>Technology</item>
+        <item>Entertainment</item>
+        <item>Science</item>
+        <item>Sports</item>
+        <item>Health</item>
+    </string-array>
+    <!--HEADLINES-->
+    <string name="headline_read_add">Okuma listeme ekle</string>
+    <string name="headline_read_remove">Okuma Listemden Çıkar</string>
+</resources>

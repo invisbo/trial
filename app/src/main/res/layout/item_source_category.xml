@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="category"
+            type="com.newactivity.ui.sources.adapters.SourceCategoryAdapter.CategoryModel" />
+    </data>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/source_category_item_height"
+        android:background="@drawable/bg_source_category"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:paddingStart="@dimen/source_category_item_height"
+        android:paddingEnd="@dimen/app_padding"
+        android:text="@{category.category}"
+        android:textColor="@color/source_category_text"
+        android:textSize="@dimen/source_category_text_size"
+        android:textStyle="bold"
+        app:isActivated="@{category.selected}"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="General" />
+
+</layout>
